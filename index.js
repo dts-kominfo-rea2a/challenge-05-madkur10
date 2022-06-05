@@ -8,7 +8,7 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // ...
 const sorter = function (data, fungsi) {
   let arrData = [];
-  fungsi(arrData);
+  fungsi(data);
   for (let index = 0; index < data.length; index++) {
     let elementData = index + 1 + ". " + data[index];
     arrData.push(elementData);
